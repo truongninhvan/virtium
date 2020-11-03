@@ -1,6 +1,5 @@
-virtium
-=============
-download
+#virtium
+#download
 git clone https://github.com/truongninhvan/virtium.git
-run command
+#run command
 ./virtium/setup.sh -m x86-64
