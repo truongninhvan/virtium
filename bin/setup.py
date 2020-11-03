@@ -24,7 +24,7 @@ class Setup():
 
 			url = "https://github.com/truongninhvan/meta-virtium.git"
 			cmd = ["git", "-C", "layers", "clone", "-b", branch, url]
-	    		#utils.run_cmd(cmd)
+	    		utils.run_cmd(cmd)
 
 			# modify bblayers.conf
 			bblayers_path = os.getcwd() + "/build/conf/bblayers.conf"
